@@ -11,7 +11,7 @@ function hide() {
         main.computedStyleMap.display = "none";
         isHidden= false;
         outputContainer.computedStyleMap.display = "block";
-        outputConatiner.innerHTML= `
+        outputContainer.innerHTML= `
         <div class = "output">
         <div class = "heading">
         <h1>${inputField}["name"].value}</h1>
